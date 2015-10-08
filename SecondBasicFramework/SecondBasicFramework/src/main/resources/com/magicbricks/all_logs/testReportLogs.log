@@ -1,0 +1,27 @@
+09/10/2015 00:52:33 [TestLogger][  INFO]:- The openAndMaximiseBrowser method is started correctly
+09/10/2015 00:52:33 [TestLogger][  INFO]:- Browser has been maximized
+09/10/2015 00:52:33 [TestLogger][  INFO]:- The Url has been formatted correctly
+09/10/2015 00:52:37 [TestLogger][  INFO]:- The Web address has been loaded successfully
+09/10/2015 00:52:37 [TestLogger][  INFO]:- The openSellPropertyPage method has been initiated
+09/10/2015 00:52:42 [TestLogger][ ERROR]:- The openSellPropertyPage method has encountered errororg.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div/div[1]/div/div/div[2]/div[2]/ul/li[4]/a"}
+Command duration or timeout: 4.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'MikeJoy', ip: '192.168.1.8', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+*** Element info: {Using=xpath, value=html/body/div[1]/div/div[1]/div/div/div[2]/div[2]/ul/li[4]/a}
+Session ID: ff6be6c6-5f10-467f-a0eb-acdfe3bee12d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+09/10/2015 00:52:45 [TestLogger][  INFO]:- The enterPropertyInfo method has been initiated
+09/10/2015 00:52:45 [TestLogger][ ERROR]:- The enterPropertyInfo method has encountered errororg.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"propertyForS"}
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'MikeJoy', ip: '192.168.1.8', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+*** Element info: {Using=id, value=propertyForS}
+Session ID: ff6be6c6-5f10-467f-a0eb-acdfe3bee12d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+09/10/2015 00:52:49 [TestLogger][  INFO]:- The tearDownBrowser method has been initiated
+09/10/2015 00:52:49 [TestLogger][  INFO]:- Browser has now quit
+09/10/2015 00:52:49 [TestLogger][  INFO]:- Browser has no value anymore
